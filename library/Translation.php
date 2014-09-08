@@ -136,7 +136,7 @@ class Translation {
         return false;
     }
     // translating the word or phrase to according language defined
-    public function go($strSource,$goSimilar = false,$showSimilar = false,$langaguePrefixFrom = null,$langaguePrefixTo = null){        
+    public function go($strSource,$goSimilar = 0,$showSimilar = false,$langaguePrefixFrom = null,$langaguePrefixTo = null){        
         $strTranslated=null;
 
         $langaguePrefixFrom = empty($langaguePrefixFrom)?$this->langaguePrefixFrom:$langaguePrefixFrom;
