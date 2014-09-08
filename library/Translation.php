@@ -60,9 +60,7 @@ class Translation {
     private $ucfirst = false;
     private $ucwords = false;
     
-    function __construct($langaguePrefixFrom = null,$langaguePrefixTo = null) {
-
-	echo "translation...";
+    function __construct($langaguePrefixFrom = null,$langaguePrefixTo = null) {	
 	$className = str_replace(__NAMESPACE__ . '\\','',get_class($this));
 	$classNamelower = strtolower($className);
 
