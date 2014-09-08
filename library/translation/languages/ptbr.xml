@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <name>portugues</name>    
+    
+    
+    <string name="home" similar='inicio,começo'>casa</string>
+    <string name="help">ajuda</string>
+    <string name="logout">sair</string>
+    <string name="login">entrar</string>
+    
+    <string name="enter">entrar</string>
+    
+    <string name="email">correio</string>
+    <string name="password">senha</string>
+    
+    <string name="register">registro</string>
+    <string name="plan">plano</string>
+    
+    <string name="configuration">configuração</string>
+    <string name="about">sobre</string>
+    
+    <string name="learn">ler</string>
+    <string name="more">mais</string>
+    <string name="manager">gerenciador</string>
+   <string name="start">inicio</string>
+   <string name="language">idioma</string>
+   <string name="version">versão</string>
+   <string name="year">ano</string>
+   <string name="author">autor</string>
+   
+   <string name="of">de</string>
+   
+   <string name="off">desligado</string>
+   
+   <string name="category">categoria</string>
+</root>

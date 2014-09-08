@@ -1,0 +1,23 @@
+    {
+	    "name": "wallrio/solo",
+	    "description": "collection of class for development single",
+	    "keywords": ["wallrio", "solo"],
+	    "type": "library",
+	    "homepage": "http://solo.wallrio.com",
+	    "license": "GPL",
+	    "authors": [
+		    {
+		    "name": "Wallace Rio",
+		    "email": "wallrio@gmail.com"
+		    }
+	    ],
+	    "require": {
+	    	"php": ">=5.3"  
+	    },
+	    "autoload": {
+		"psr-4": {
+		    "WallRio\\Solo\\": "library/"
+		}
+	    }
+            
+    }

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <name>english</name>    
+    
+    <string name="home">home</string>
+    <string name="help">help</string>
+    <string name="logout">logout</string>
+    <string name="login">login</string>
+    
+    <string name="enter">enter</string>
+    
+    <string name="email">email</string>
+    <string name="password">password</string>
+    
+    <string name="register">register</string>
+    <string name="plan">plan</string>
+    
+    <string name="configuration">configuration</string>
+    <string name="about">about</string>
+    
+    <string name="learn">learn</string>
+    <string name="more">more</string>
+    <string name="manager">manager</string>
+   <string name="start">start</string>
+   <string name="language">language</string>
+   <string name="version">version</string>
+   <string name="year">year</string>
+   <string name="author">author</string>
+   
+   <string name="of">of</string>
+   <string name="off">off</string>
+   
+   <string name="category">category</string>
+</root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <name>français</name>    
+    
+    <string name="home">maison</string>
+    <string name="help">aider</string>
+    <string name="logout">déconnexion</string>
+    <string name="login">connexion</string>
+    
+    <string name="enter">entrer</string>
+    
+
+
+    <string name="email">email</string>
+    <string name="password">password</string>
+    
+    <string name="register">register</string>
+    <string name="plan">plan</string>
+    
+    <string name="configuration">configuration</string>
+    <string name="about">about</string>
+    
+    <string name="learn">learn</string>
+    <string name="more">more</string>
+    <string name="manager">manager</string>
+   <string name="start">start</string>
+   <string name="language">language</string>
+   <string name="version">version</string>
+   <string name="year">year</string>
+   <string name="author">author</string>
+   
+</root>
