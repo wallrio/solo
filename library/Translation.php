@@ -105,7 +105,7 @@ class Translation {
          $this->cacheLanguageSource($langaguePrefix);         
     }
     
-    public function getLanguageTo(){         
+    public function getLanguageNameTo(){         
          return $this->langagueNameTo; 
     }
     
