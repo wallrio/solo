@@ -260,7 +260,7 @@ class Translation {
                             if($showSimilar == false){
                                 if($goSimilar != false){
                                     $similar_array = explode(',',$string['similar']);
-                                    if(isset($similar_array[$goSimilar-1]))
+                                    if(!empty($similar_array[$goSimilar-1]))
                                        return $similar_array[$goSimilar-1];
 
                                     return $string;
