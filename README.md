@@ -37,17 +37,17 @@ echo $translation->go('Text to translate');
 
 + <strong>go</strong>( Source = STRING , goSimilar = INTEGER , showSimilar = BOOLEAN , langaguePrefixFrom = STRING, langaguePrefixTo = STRING)
 
-<i>description:</i> This method represents the last text parameter.
+><i>description:</i> This method represents the last text parameter.
 
-<i>return:</i> (string)
+><i>return:</i> (string)
 
-<i>example:</i>
+><i>example:</i>
 ```sh
 	$translation = new \WallRio\Solo\Translation();     
 	echo $translation->go('Text to translate');		
 ```
 
-<i>Example outlet:</i> 'Texto para traduzir'
+><i>Example outlet:</i> 'Texto para traduzir'
 
 
 
@@ -55,17 +55,17 @@ echo $translation->go('Text to translate');
 
 + <strong>goSimilar</strong>( Source = STRING )
 
->><i>description:</i> This method displays the translations similar to a word.
+><i>description:</i> This method displays the translations similar to a word.
 
->><i>return:</i> (string)
+><i>return:</i> (string)
 
->><i>example:</i>
+><i>example:</i>
 ```sh
 	$translation = new \WallRio\Solo\Translation();     
 	echo $translation->goSimilar('home');
 ```
 
->><i>Example outlet:</i> 'casa,inicio,moradia'
+><i>Example outlet:</i> 'casa,inicio,moradia'
 
 
 
@@ -73,15 +73,15 @@ echo $translation->go('Text to translate');
 
 + <strong>stylefont</strong>( STYLE = STRING )
 
->><i>description:</i> This method is used to format globally as the translated text.
+><i>description:</i> This method is used to format globally as the translated text.
 
->><i>return:</i> (void) este método não tem retorno
+><i>return:</i> (void) este método não tem retorno
 
->><i>example:</i>
-	```sh
-		$translation = new \WallRio\Solo\Translation();  
-		$translation->stylefont('ucfirst:true;ucwords:false');
-	```
+><i>example:</i>
+```sh
+	$translation = new \WallRio\Solo\Translation();  
+	$translation->stylefont('ucfirst:true;ucwords:false');
+```
 
 
 
@@ -90,16 +90,16 @@ echo $translation->go('Text to translate');
 
 + <strong>listLanguages</strong>()
 
->><i>description:</i> This method is used to list the languages ​​available.
+><i>description:</i> This method is used to list the languages ​​available.
 
->><i>return:</i> (array)
+><i>return:</i> (array)
 
->><i>example:</i>
-	```sh
-		$translation = new \WallRio\Solo\Translation();  
-		$translation->listLanguages();
-		var_dump($translation);
-	```
+><i>example:</i>
+```sh
+	$translation = new \WallRio\Solo\Translation();  
+	$translation->listLanguages();
+	var_dump($translation);
+```
 
 
 
@@ -107,15 +107,15 @@ echo $translation->go('Text to translate');
 
 + <strong>setLanguageTo</strong>( langaguePrefix = STRING )
 
->><i>description:</i> This method is used to choose the target language of the translation.
+><i>description:</i> This method is used to choose the target language of the translation.
 
->><i>return:</i> (void)
+><i>return:</i> (void)
 
->><i>example:</i>
-	```sh
-		$translation = new \WallRio\Solo\Translation();  
-		$translation->setLanguageTo('ptbr');		
-	```
+><i>example:</i>
+```sh
+	$translation = new \WallRio\Solo\Translation();  
+	$translation->setLanguageTo('ptbr');		
+```
 
 
 
@@ -125,15 +125,15 @@ echo $translation->go('Text to translate');
 
 + <strong>setLanguageFrom</strong>( langaguePrefix = STRING )
 
->><i>description:</i> This method is used to choose the source language of the translation.
+><i>description:</i> This method is used to choose the source language of the translation.
 
->><i>return:</i> (void)
+><i>return:</i> (void)
 
->><i>example:</i>
-	```sh
-		$translation = new \WallRio\Solo\Translation();  
-		$translation->setLanguageFrom('ptbr');		
-	```
+><i>example:</i>
+```sh
+	$translation = new \WallRio\Solo\Translation();  
+	$translation->setLanguageFrom('ptbr');		
+```
 
 
 
@@ -143,12 +143,12 @@ echo $translation->go('Text to translate');
 
 + <strong>getLanguageNameTo</strong>()
 
->><i>description:</i> This method is used to capture the name of the target language translation.
+><i>description:</i> This method is used to capture the name of the target language translation.
 
->><i>return:</i> (string)
+><i>return:</i> (string)
 
->><i>example:</i>
-	```sh
-		$translation = new \WallRio\Solo\Translation();  
-		echo $translation->getLanguageNameTo();		
-	```
+><i>example:</i>
+```sh
+	$translation = new \WallRio\Solo\Translation();  
+	echo $translation->getLanguageNameTo();		
+```
