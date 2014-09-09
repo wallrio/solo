@@ -3,9 +3,8 @@ solo
 
 > <em>collection of class for development single</em>
 - - -
-[![Build Status](https://secure.travis-ci.org/Respect/Validation.png)](http://travis-ci.org/wallrio/solo)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/wallrio/solo/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/wallrio/solo/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/wallrio/solo/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/Respect/Validation/?branch=master)
+
+
 [![Latest Stable Version](https://poser.pugx.org/wallrio/solo/v/stable.svg)](https://packagist.org/packages/wallrio/solo)
 [![Total Downloads](https://poser.pugx.org/wallrio/solo/downloads.svg)](https://packagist.org/packages/wallrio/solo)
 [![License](https://poser.pugx.org/wallrio/solo/license.svg)](https://packagist.org/packages/wallrio/solo)
