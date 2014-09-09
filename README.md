@@ -4,7 +4,6 @@ solo
 <em>collection of class for development single</em>
 
 
-
 [![Latest Stable Version](https://poser.pugx.org/wallrio/solo/v/stable.svg)](https://packagist.org/packages/wallrio/solo)
 [![Total Downloads](https://poser.pugx.org/wallrio/solo/downloads.svg)](https://packagist.org/packages/wallrio/solo)
 [![License](https://poser.pugx.org/wallrio/solo/license.svg)](https://packagist.org/packages/wallrio/solo)
