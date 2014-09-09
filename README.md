@@ -1,15 +1,15 @@
 solo
 ====
 
-> <em>collection of class for development single</em>
-- - -
+<em>collection of class for development single</em>
+
 
 
 [![Latest Stable Version](https://poser.pugx.org/wallrio/solo/v/stable.svg)](https://packagist.org/packages/wallrio/solo)
 [![Total Downloads](https://poser.pugx.org/wallrio/solo/downloads.svg)](https://packagist.org/packages/wallrio/solo)
 [![License](https://poser.pugx.org/wallrio/solo/license.svg)](https://packagist.org/packages/wallrio/solo)
-- - -
->Leia esta página em [Português](http....README-ptbr.md)
+
+Leia esta página em [Português](http....README-ptbr.md)
 - - -
 ### Author Information:
 ><strong>name:</strong> Wallace Rio<br>
@@ -21,7 +21,7 @@ solo
 <br>
 ### Installation:
 
->Este pacote esta disponivel via [Composer](https://packagist.org/packages/wallrio/solo).
+Este pacote esta disponivel via [Composer](https://packagist.org/packages/wallrio/solo).
 
 ### Using:	
 
@@ -37,15 +37,15 @@ echo $translation->go('Text to translate');
 
 + <strong>go</strong>( Source = STRING , goSimilar = INTEGER , showSimilar = BOOLEAN , langaguePrefixFrom = STRING, langaguePrefixTo = STRING)
 
->><i>description:</i> This method represents the last text parameter.
+><i>description:</i> This method represents the last text parameter.
 
->><i>return:</i> (string)
+><i>return:</i> (string)
 
->><i>example:</i>
-	```sh
-		$translation = new \WallRio\Solo\Translation();     
-		echo $translation->go('Text to translate');		
-	```
+><i>example:</i>
+```sh
+	$translation = new \WallRio\Solo\Translation();     
+	echo $translation->go('Text to translate');		
+```
 
 >><i>Example outlet:</i> 'Texto para traduzir'
 
