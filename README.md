@@ -9,7 +9,7 @@ solo
 [![Total Downloads](https://poser.pugx.org/wallrio/solo/downloads.svg)](https://packagist.org/packages/wallrio/solo)
 [![License](https://poser.pugx.org/wallrio/solo/license.svg)](https://packagist.org/packages/wallrio/solo)
 
-Leia esta página em [Português](http....README-ptbr.md)
+
 
 ### Author Information:
 <strong>name:</strong> Wallace Rio<br>
