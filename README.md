@@ -55,17 +55,17 @@ echo $translation->go('Text to translate');
 
 + <strong>goSimilar</strong>( Source = STRING )
 
-<i>description:</i> This method displays the translations similar to a word.
+>><i>description:</i> This method displays the translations similar to a word.
 
-<i>return:</i> (string)
+>><i>return:</i> (string)
 
-<i>example:</i>
+>><i>example:</i>
 ```sh
 	$translation = new \WallRio\Solo\Translation();     
 	echo $translation->goSimilar('home');
 ```
 
-<i>Example outlet:</i> 'casa,inicio,moradia'
+>><i>Example outlet:</i> 'casa,inicio,moradia'
 
 
 
