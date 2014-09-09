@@ -10,15 +10,15 @@ solo
 [![License](https://poser.pugx.org/wallrio/solo/license.svg)](https://packagist.org/packages/wallrio/solo)
 
 Leia esta página em [Português](http....README-ptbr.md)
-- - -
+
 ### Author Information:
-><strong>name:</strong> Wallace Rio<br>
-><strong>email:</strong> wallrio@gmail.com<br>
-><strong>site:</strong> [wallrio.com](http://wallrio.com/ "WallRio.com")
+<strong>name:</strong> Wallace Rio<br>
+<strong>email:</strong> wallrio@gmail.com<br>
+<strong>site:</strong> [wallrio.com](http://wallrio.com/ "WallRio.com")
 
-><strong>page project:</strong> [solo.wallrio.com](http://solo.wallrio.com/ "solo.wallrio.com")
+<strong>page project:</strong> [solo.wallrio.com](http://solo.wallrio.com/ "solo.wallrio.com")
 
-<br>
+
 ### Installation:
 
 Este pacote esta disponivel via [Composer](https://packagist.org/packages/wallrio/solo).
@@ -37,17 +37,17 @@ echo $translation->go('Text to translate');
 
 + <strong>go</strong>( Source = STRING , goSimilar = INTEGER , showSimilar = BOOLEAN , langaguePrefixFrom = STRING, langaguePrefixTo = STRING)
 
-><i>description:</i> This method represents the last text parameter.
+<i>description:</i> This method represents the last text parameter.
 
-><i>return:</i> (string)
+<i>return:</i> (string)
 
-><i>example:</i>
+<i>example:</i>
 ```sh
 	$translation = new \WallRio\Solo\Translation();     
 	echo $translation->go('Text to translate');		
 ```
 
->><i>Example outlet:</i> 'Texto para traduzir'
+<i>Example outlet:</i> 'Texto para traduzir'
 
 
 
@@ -55,17 +55,17 @@ echo $translation->go('Text to translate');
 
 + <strong>goSimilar</strong>( Source = STRING )
 
->><i>description:</i> This method displays the translations similar to a word.
+<i>description:</i> This method displays the translations similar to a word.
 
->><i>return:</i> (string)
+<i>return:</i> (string)
 
->><i>example:</i>
-	```sh
-		$translation = new \WallRio\Solo\Translation();     
-		echo $translation->goSimilar('home');
-	```
+<i>example:</i>
+```sh
+	$translation = new \WallRio\Solo\Translation();     
+	echo $translation->goSimilar('home');
+```
 
->><i>Example outlet:</i> 'casa,inicio,moradia'
+<i>Example outlet:</i> 'casa,inicio,moradia'
 
 
 
